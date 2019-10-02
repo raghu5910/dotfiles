@@ -3,6 +3,7 @@
 # Install Brew Packages
 brew install python
 brew install tree
+brew install pcre
 brew install node
 
 # Install MacOS Applications
