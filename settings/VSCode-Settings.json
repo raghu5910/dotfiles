@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Predawn",
+    "workbench.iconTheme": "ayu",
+    "editor.fontsize": 12,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "Source Code Pro",
+    "debug.console.fontFamily": "iosevks",
+    "debug.console.fontSize": 12,
+    "terminal.integrated.fontFamily": "iosevka",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": "600",
+    "window.zoomLevel": 2,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.editor": "json",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.startupEditor": "newUntitledFile"
+}

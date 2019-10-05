@@ -14,8 +14,14 @@ brew cask install visual-studio-code
 brew cask install mactex-no-gui
 brew cask install java
 
+# Other Applications
+brew install r
+brew cask install rstudio
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
 brew cask install font-source-code-pro
+
+# Install Iosevka Font
+brew cask install font-iosevka
 
