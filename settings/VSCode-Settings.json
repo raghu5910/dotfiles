@@ -1,7 +1,7 @@
 {
     "workbench.colorTheme": "Predawn",
     "workbench.iconTheme": "ayu",
-    "editor.fontsize": 12,
+    "editor.fontSize": 14,
     "editor.fontWeight": "500",
     "editor.fontFamily": "Source Code Pro",
     "debug.console.fontFamily": "iosevks",
@@ -15,8 +15,9 @@
     "editor.formatOnSave": true,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.openDefaultSettings": false,
     "workbench.settings.editor": "json",
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.statusBar.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "latex-workshop.view.pdf.viewer": "tab",
 }
