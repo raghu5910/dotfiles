@@ -19,3 +19,5 @@ fi
 # export PATH
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+# For PYRO (python package) configuration
+export PYRO_SERIALIZERS_ACCEPTED=serpent,json,marshal,pickle,dill
