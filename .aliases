@@ -2,7 +2,7 @@
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-
+alias docker="sudo docker"
 alias gh='history | grep "git commit"'
 alias ch='history | grep'
 # Python
@@ -20,7 +20,7 @@ fi
 alias la="ls -lahF ${colorflag}"
 
 # List all files colorized in long format
-alias l="ls -lF ${colorflag}"
+alias l="ls -lhF ${colorflag}"
 
 # List all files colorized in long format, excluding . and ..
 alias la="ls -lAF ${colorflag}"
