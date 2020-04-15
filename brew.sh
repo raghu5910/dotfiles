@@ -1,27 +1,30 @@
 #!/usr/bin/env bash
 
-# Install Brew Packages
+# Developer Applications
 brew install python
 brew install tree
 brew install pcre
 brew install node
+brew install r
+brew cask install visual-studio-code
+brew cask install java
+brew cask install postman
+brew cask install rstudio
+brew cask install mactex-no-gui
+brew cask install virtualbox
 
 # Install MacOS Applications
 brew cask install google-chrome
-#brew cask install google-backup-and-sync
+brew cask install google-backup-and-sync
 brew cask install skype
-brew cask install visual-studio-code
-#brew cask install mactex-no-gui
-brew cask install java
+brew cask install spotify
+brew cask install vlc
 
-# Other Applications
-brew install r
-brew cask install rstudio
-
-# Install Source Code Pro Font
+# Install fonts
 brew tap homebrew/cask-fonts
 brew cask install font-source-code-pro
-
-# Install Iosevka Font
 brew cask install font-iosevka
 
+# cleanup cache
+brew cleanup --force
+rm -f -r /Library/Caches/Homebrew/*
