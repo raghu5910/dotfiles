@@ -17,7 +17,35 @@
     "python.linting.pylintEnabled": true,
     "workbench.settings.openDefaultSettings": false,
     "workbench.settings.editor": "json",
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.startupEditor": "newUntitledFile",
     "latex-workshop.view.pdf.viewer": "tab",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "enabled",
+    "python.jediEnabled": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "html.suggest.html5": true,
+    "html.autoClosingTags": true,
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "*.class": true,
+        "**/.vscode": true,
+        "**/.ipynb_checkpoints": true,
+        "*.out": true,
+        "**/node_modules": true
+    },
+    "editor.minimap.enabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }
