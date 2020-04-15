@@ -26,5 +26,4 @@ brew cask install font-source-code-pro
 brew cask install font-iosevka
 
 # cleanup cache
-brew cleanup --force
-rm -f -r /Library/Caches/Homebrew/*
+rm -rf "$(brew --cache)"
