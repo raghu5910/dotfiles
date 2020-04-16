@@ -8,7 +8,8 @@ alias ch='history | grep'
 # Python
 alias python="python3"
 alias pip="pip3"
-
+# VirtualBox
+alias windows="VirtualBoxVM --startvm Windows-10-64"
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
