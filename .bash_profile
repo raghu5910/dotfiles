@@ -16,3 +16,10 @@ fi
 # Additional Paths for Pystan
 export CC=/usr/bin/gcc
 export CXX=/usr/bin/g++
+
+# Add keys to ssh agent
+echo Adding keys to the ssh-agent
+eval $(ssh-agent)
+ssh-add -q ~/.ssh/github
+# addtional path settings
+
