@@ -13,13 +13,8 @@ fi
 if [  -f  /usr/local/etc/bash_completion.d/docker ]; then
     source /usr/local/etc/bash_completion.d/docker
 fi
-# Additional Paths for Pystan
-export CC=/usr/bin/gcc
-export CXX=/usr/bin/g++
 
 # Add keys to ssh agent
-echo Adding keys to the ssh-agent
 eval $(ssh-agent)
-ssh-add -q ~/.ssh/github
-# addtional path settings
+ssh-add -q ~/.ssh/your_file
 
