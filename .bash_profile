@@ -15,6 +15,6 @@ if [  -f  /usr/local/etc/bash_completion.d/docker ]; then
 fi
 
 # Add keys to ssh agent
-eval $(ssh-agent)
-ssh-add -q ~/.ssh/your_file
+#eval $(ssh-agent)
+#ssh-add -q ~/.ssh/your_file
 
