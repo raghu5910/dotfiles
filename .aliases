@@ -6,6 +6,7 @@ alias docker="sudo docker"
 alias gh='history | grep "git commit"'
 alias ch='history | grep'
 alias tjup='tmux attach -t jupyter'
+alias pbcopy='xclip -selection c'
 # Python
 alias python="python3"
 alias pip="pip3"
