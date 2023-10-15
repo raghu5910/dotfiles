@@ -34,7 +34,7 @@ alias la="ls -lAF ${colorflag}"
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
 # Always use color output for `ls`
-alias ls="command ls ${colorflag}"
+#alias ls="command ls ${colorflag}"
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
